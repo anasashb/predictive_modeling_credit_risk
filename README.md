@@ -1,7 +1,7 @@
 # predictive_modeling_credit_risk
 In the following repository, the use of two custom classes are demonstrated on the following loan data: [link](https://github.com/Humboldt-WI/bads/blob/master/data/loan_data.csv):
-- CategoryOptimizer - A custom class that extends upon an optimization function using $\chi^2$ testing for merging category levels demonstrated in class by Prof. Dr. Stefan Lessmann at Hu Berlin.
-- ModelValidator - A custom class that serves as an easy-to-implement 5-fold cross validation for Logistic Regression, Random Forest Classifier and XGBoost Classifier. Class includes methods for validating the three models, as well as conducting grid search on RF and XGB.
+- CategoryOptimizer - A custom class that extends upon an optimization function using $\chi^2$ testing for merging category levels demonstrated in class by Prof. Dr. Stefan Lessmann at Hu Berlin. The class is demonstrated in the following [notebook](https://github.com/anasashb/predictive_modeling_credit_risk/blob/main/data_prep_and_selection/prep_notebook.ipynb) of this repository.
+- ModelValidator - A custom class that serves as an easy-to-implement 5-fold cross validation for Logistic Regression, Random Forest Classifier and XGBoost Classifier. Class includes methods for validating the three models, as well as conducting grid search on RF and XGB. The class is demonstrated in the following [notebook](https://github.com/anasashb/predictive_modeling_credit_risk/blob/main/model_validation/val_notebook.ipynb) of this repository. 
 - - -
 ``` python
 # Class to optimize grouping using X^2 test

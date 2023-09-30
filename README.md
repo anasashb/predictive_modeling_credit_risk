@@ -105,9 +105,7 @@ class CategoryOptimizer:
 ```
 - - -
 ```python
-# Here we begin defining the class
-# Cross-validation will be included in all models
-
+# Crossvalidation class
 class ModelValidator:
     '''
     A custom class to wrap up model k-fold validation functionalities.

@@ -292,7 +292,6 @@ class ModelValidator:
                                       learning_rate=learning_rate,
                                       random_state = 66
                                       )
-        # Same pipeline
         # Same scoring
         xgb_scores = cross_val_score(model, self.X, self.y, scoring = 'f1', cv = cv, n_jobs = -1)
         
